@@ -6,11 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebViewClient
-import androidx.navigation.NavArgs
 import androidx.navigation.fragment.navArgs
-import com.example.newsapiclient.databinding.FragmentInfoBinding
 import com.example.newsapiclient.presentation.viewmodel.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
+import example.newsapiclient.InfoFragmentArgs
+import example.newsapiclient.R
+import example.newsapiclient.databinding.FragmentInfoBinding
 
 class InfoFragment : Fragment() {
     private lateinit var fragmentInfoBinding: FragmentInfoBinding
